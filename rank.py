@@ -1,6 +1,6 @@
 #Akhil Jarodia 2017130 B1
 #Nakul Gupta 2017068 B1
-def swapRows(A,row1,col,row2):
+def swapRows(A,row1,col,row2): #Here the rows are getting swapped
 	i=0
 	while i<col:
 		a=A[row1][i]
@@ -10,7 +10,7 @@ def swapRows(A,row1,col,row2):
 		
 	return A
 
-def Row_Transformation(A,x,row1,row2):
+def Row_Transformation(A,x,row1,row2): #here the rows are getting transformed
 	i=0
 	while i<len(A[0]):
 		A[row2][i]=A[row2][i]+(x*A[row1][i])		
@@ -18,7 +18,7 @@ def Row_Transformation(A,x,row1,row2):
 		
 	return A
 
-def MatrixRank(a):
+def MatrixRank(a): #here everything is happening
 	rank=len(a[0])
 	i=0
 	while i<rank:
